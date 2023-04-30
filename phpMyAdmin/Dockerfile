@@ -1,0 +1,7 @@
+FROM phpmyadmin:latest
+
+ENV PMA_HOST 172.18.0.2
+
+ENV MYSQL_ROOT_PASSWORD squidzz 
+
+EXPOSE 80 8080
